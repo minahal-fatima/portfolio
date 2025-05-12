@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #bdd2e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .counter-box {
+    text-align: center;
+    background: rgb(222, 229, 241);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: #0077b6;
+    margin-bottom: 10px;
+  }
+  
+  #counter {
+    font-size: 60px;
+    color: #0077b6;
+    margin: 20px 0;
+  }
+  
+  .buttons button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    opacity: 0.9;
+  }
+  
